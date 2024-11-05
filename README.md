@@ -37,6 +37,8 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+![Screenshot 2024-11-05 164614](https://github.com/user-attachments/assets/cd3d19d7-8915-4e6b-84f1-ba94d012f31f)
+
 ![Screenshot 2024-11-05 164644](https://github.com/user-attachments/assets/c7f88979-f366-47da-88de-d5f457278876)
 
 **Procedure**
@@ -70,7 +72,6 @@ endmodule
 ![Screenshot 2024-11-05 142128](https://github.com/user-attachments/assets/e62a5a42-645b-4d39-a1ab-fd9a2c3d3b8c)
 
 **Result:**
-
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
 
