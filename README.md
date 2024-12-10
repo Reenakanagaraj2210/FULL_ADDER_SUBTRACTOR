@@ -51,6 +51,22 @@ Write the detailed procedure here
  Developed by:Reena.k
  RegisterNumber:24900496
 */
+// full adder
+module exe04(sum,cout,a,b,cin);
+output sum;
+output cout;
+input a;
+input b;
+input cin;
+wire s1,c1,c2;
+xor(s1,a,b);
+and(c1,a,b);
+xor(sum,s1,cin);
+and(c2,s1,cin);
+or(cout,c2,c1);
+endmodule
+
+// full subtracter
 module exe_4(df,bo,a,b,bin);
 output df;
 output bo;
@@ -68,9 +84,13 @@ endmodule
 **RTL Schematic**
 ![Screenshot 2024-11-05 141803](https://github.com/user-attachments/assets/fc27b668-77f7-4739-924b-39862427ece7)
 
+![Screenshot 2024-12-10 205533](https://github.com/user-attachments/assets/0010493d-685c-4253-8374-cb6daea92660)
+
+
 **Output Timing Waveform**
 ![Screenshot 2024-11-13 135846](https://github.com/user-attachments/assets/c95a0609-1ce5-4fd7-aac7-6afa98cbb3c8)
 
+![Screenshot 2024-12-10 210022](https://github.com/user-attachments/assets/3143761b-de44-4742-8c90-bf2543a0c455)
 
 **Result:**
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
