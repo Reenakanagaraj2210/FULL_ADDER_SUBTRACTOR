@@ -82,15 +82,16 @@ assign bo=w2|w3;
 endmodule
 ```
 **RTL Schematic**
-![Screenshot 2024-11-05 141803](https://github.com/user-attachments/assets/fc27b668-77f7-4739-924b-39862427ece7)
 
 ![Screenshot 2024-12-10 205533](https://github.com/user-attachments/assets/0010493d-685c-4253-8374-cb6daea92660)
 
+![Screenshot 2024-11-05 141803](https://github.com/user-attachments/assets/fc27b668-77f7-4739-924b-39862427ece7)
 
 **Output Timing Waveform**
-![Screenshot 2024-11-13 135846](https://github.com/user-attachments/assets/c95a0609-1ce5-4fd7-aac7-6afa98cbb3c8)
 
 ![Screenshot 2024-12-10 210022](https://github.com/user-attachments/assets/3143761b-de44-4742-8c90-bf2543a0c455)
+
+![Screenshot 2024-11-13 135846](https://github.com/user-attachments/assets/c95a0609-1ce5-4fd7-aac7-6afa98cbb3c8)
 
 **Result:**
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
